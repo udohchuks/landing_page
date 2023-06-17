@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.red {
+    color: red;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.logo h1,
+span {
+    color: black;
+    font-size: 28px;
+    font-weight: 900;
+}
+.logo img {
+    width: 60px;
+}
+header {
+    height: 72px;
+    border-bottom: 2px solid gray;
+    margin-bottom: 20px;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+header .logo {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+header .nav-bar ul {
+    display: flex;
+    color: rgb(55, 66, 223);
+    font-weight: bold;
+    font-size: 18x;
+    gap: 15px
+}
+.info .container {
+    display: flex;
+    gap: 30px;
+    position: relative;
+    align-items: center;
+    min-height: 550px;
+}
+
+.girl {
+    max-width: 370px;
+    max-height: 370px;
+    padding-left: 50px;
+}
+.container .more {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.container .more h1 {
+    font-size: 38px;
+}
+.container .more ul {
+    display: flex;
+    justify-content: space-between;
+}
+.container .more ul .btn {
+    color: aliceblue;
+    background-color:rgb(55, 121, 207);
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-size: 18px;
+    width: 200px;
+    text-align: center;
+}
+.container .more ul .btn a {
+    color: #fff;
+}
+.column {
+  /* background-color: rgb(197, 220, 240);*/
+}
+.column .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.column .container h2 {
+    font-size: 32px;
+    margin: 20px 0;
+}
+.column .container .box-img {
+    width: 330px;
+    height: 240px;
+}
+.column .container .box-img .img2 {
+    width: 50px;
+    height: 50px;;
+}
+.column .container .columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.column .container .columns .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 32px;
+    margin-left: 20px;
+}
+.column .container .columns .col h3 {
+    font-size: 20px;
+}
+
+.reversed .container {
+    flex-direction: row-reverse;
+    padding: 0;
+    margin: 0;
+    line-height: 40px;
+}
+.reversed .container  .blur {
+    color: rgba(0,0,0,0.6);
+}
+.reversed .container .student h2 {
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 44px;
+}
+.reversed .container .student  a {
+    background-color: rgb(55, 121, 207);
+    color: #fff;
+    width: 250px;
+    text-align: center;
+    padding: 12px 18px;
+    border-radius: 5px;
+}
+.text {
+    padding-top: 30px;
+    background-color: aliceblue;
+    margin: 0 30px;
+    padding: 0 10px;
+}
+.text .container {
+    display: flex;
+    flex-direction: column;
+}
+.text .container p {
+    font-size: 50px;
+    line-height: 40px;
+}
+.text .container .author {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 10px;
+}
+.text .container .author span {
+    font-size: 20px;
+}
+.action {
+    margin-top: 50px;
+
+}
+.action .container {
+    background-color: rgb(205, 214, 213);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400px;
+    padding: 20px 30px;
+
+}
+.action .container div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.action .container a {
+    color: white;
+    background-color: rgb(55, 121, 207);
+    padding: 10px 30px;
+    width: 150px;
+    text-align: center;
+}
+footer {
+    margin-top: 50px;
+    background-color: rgb(70, 65, 65);
+    color: white;
+}
+footer a {
+    color: rgb(72, 184, 199);
+}
+footer .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
